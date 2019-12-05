@@ -1,0 +1,9 @@
+docker container stop $(docker container ls -aq)
+
+docker container rm $(docker container ls -aq)
+
+docker build -t jvadisela:expose .
+
+docker run -d -p 90:5000 jvadisela:expose //detached mode
+
+docker run -p 90:5000 jvadisela:expose //ip mode
