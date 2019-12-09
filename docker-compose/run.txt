@@ -1,0 +1,14 @@
+#to start the application
+docker-compose up
+
+
+#to start the application in detached mode
+docker-compose up -d
+
+
+#to verify the running containers
+docker ps
+
+
+#to stop the running containers
+docker-compose stop
