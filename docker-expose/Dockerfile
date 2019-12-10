@@ -10,6 +10,9 @@ RUN pip install -r requirements.txt
 
 COPY . /app
 
-ENTRYPOINT [ "python" ]
+#ENTRYPOINT [ "python" ]
 
-CMD [ "app.py" ]
+EXPOSE 5000
+
+CMD [ "python", "app.py" ]
+
