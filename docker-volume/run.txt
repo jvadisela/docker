@@ -1,0 +1,16 @@
+$docker volume
+$docker volume create
+$docker volume ls
+$docker volume inspect
+$docker volume rm
+$docker volume prune
+
+
+Use of Volumes
+----------------------------
+Decoupling container from storage
+Share volume (storage/data) among diff containers
+attach volume to container
+on deleting container volume doesnt get deleted
+
+
